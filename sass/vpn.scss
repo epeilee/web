@@ -1,0 +1,172 @@
+
+ * {
+    box-sizing: border-box;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+html, body {
+    background-color:#fff;
+    height: 100%;
+}    
+.wrapper{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 60px 0;
+    height: 100%;
+    .back{
+        position: fixed;
+        left: 3%;
+        top: 50px;
+    }
+}
+.containter{
+    max-width:500px ;
+    margin: 40px auto;
+}
+h2{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.form{
+    display: inline-block;
+    width: 100%;
+    // .login{
+    //     position: relative;
+    // }
+    .login,.pw{
+        label, input{
+            display: inline-block;
+            width: 100%;
+        }
+        label{
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        input, select, textarea{
+            color: #ffffff;
+        }
+        textarea:focus, input:focus {
+            color: #ffffff;
+        }
+    
+        input{
+            border-color: transparent;
+            background-color: transparent;
+            outline: none;
+            padding: 10px 0;
+            border-bottom: 1px solid #6f6f6f;
+            overflow: visible;
+            background-size:18px 18px;/*设置小图标的 大小*/
+            background-position: 98% 70%;/*设置小图标的位置*/
+            background-repeat:no-repeat ;/*设置小图标不重复*/
+            &:hover, &:focus{
+                border-bottom: 1px solid #d8d8d8;
+            }
+        }
+        ::placeholder{
+            color: #fff .4;
+        }
+        .account, .pw{
+            padding-bottom: 40px;
+        }
+        .account{
+            input{
+                background-image: url(/images/icon_mail.svg);
+            }
+        }
+        .pw{
+            input{
+                background-image: url(/images/icon_password.svg);
+            }
+        }
+    }
+    .msg{
+        // display: none;
+        color: #fff;
+        // display: flex;
+        visibility: hidden;
+        width: 100%;
+        justify-content: center;
+        padding-top: 88px;
+        .msg-succeed{
+            padding: 10px 20px;
+            background-color: #222f4a;
+            max-width: 200px;
+            text-align: center;
+        }
+        .msg-succeed::before{
+            content:url(/images/tick.svg);
+            padding-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .btn{
+        text-align: center;
+        padding: 30px 0;
+        .btn-login {
+            color: #fff;
+            width: 160px;
+            height: 40px;
+            line-height: 40px;
+            object-fit: contain;
+            border-radius: 50px;
+            box-shadow: 0 2.5px 7.5px 0 rgba(95, 233, 162, 0.4);
+            background-image: linear-gradient(55deg, #49adb4 36%, #63f59e 98%);
+            border-width: 0;
+            position: relative;
+            cursor: pointer;
+        }
+        .btn-login::before{
+            content:url(/images/icon_arrow.svg);
+            position: absolute;
+            right: 20px;
+            display: inline-block;
+        }
+    }
+    .alert{
+        color: #ff5858;
+        font-size: 14px;
+        line-height: 1.6;
+        padding-top: 3px;
+        // display: none;
+        height: 25px;
+        visibility: hidden;
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    .VPNLogo{
+        color: #5ee8a2;
+    }
+}
+
+@media (max-width: 575px) {
+    .wrapper .back {
+        position: fixed;
+        left: 5%;
+        top: 30px;
+    }
+    .containter {
+        max-width: 80%;
+    }
+}

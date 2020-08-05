@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.333" height="12.381" viewBox="0 0 17.333 12.381">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__icon_mail" opacity="0.4" transform="translate(0 -68.267)">
+        <g id="prefix__Group_3441" data-name="Group 3441" transform="translate(.619 68.267)">
+            <g id="prefix__Group_3440" data-name="Group 3440">
+                <path id="prefix__Path_8467" d="M33.162 68.267h-16.1l8.053 6.633 8.139-6.61a.56.56 0 0 0-.092-.023z" class="prefix__cls-2" data-name="Path 8467" transform="translate(-17.067 -68.267)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_3443" data-name="Group 3443" transform="translate(0 69.36)">
+            <g id="prefix__Group_3442" data-name="Group 3442">
+                <path id="prefix__Path_8468" d="M9.057 105.222a.619.619 0 0 1-.784 0L0 98.406v10.669a.619.619 0 0 0 .619.619h16.1a.619.619 0 0 0 .619-.619V98.5z" class="prefix__cls-2" data-name="Path 8468" transform="translate(0 -98.406)"/>
+            </g>
+        </g>
+    </g>
+</svg>
