@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.684" height="273.625" viewBox="0 0 261.684 273.625">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.344" r="0.69" gradientTransform="matrix(0.961, 0.278, -0.232, 0.803, 0.1, -0.071)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eae5e5"/>
+      <stop offset="0.256" stop-color="#bfbfbf"/>
+      <stop offset="0.527" stop-color="#a3a3a3"/>
+      <stop offset="1" stop-color="#717171"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.294" cy="0.614" r="0.548" gradientTransform="matrix(1, -0.02, 0.033, 1.662, -0.019, -0.375)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Group_74860" data-name="Group 74860" transform="translate(-590.001 -942)">
+    <g id="iocn-bell" transform="translate(590.001 942)">
+      <g id="Group_74835" data-name="Group 74835" transform="translate(0 0)">
+        <path id="Union_5" data-name="Union 5" d="M0,0C64.349,29.173,37.124,92.959,32.262,97.272A98.774,98.774,0,0,0,0,0ZM30.073,3.433c21.064,9.419,28.7,24.262,31.8,35.524,5.168,18.772-1.584,35.59-7.169,42.316C60.441,39.686,47.229,23.366,30.073,3.433Z" transform="translate(197.965 48.924)" fill="#969696"/>
+        <path id="Union_4" data-name="Union 4" d="M203.593,256.423,5.731,203.375a7.734,7.734,0,0,1,4-14.942l197.861,53.048a7.734,7.734,0,1,1-4,14.942Zm-16.9-26.551L33.632,188.835l-18.665-5A80.789,80.789,0,0,0,31.8,165.811c9.623-14.8,23.844-59.154,23.844-59.154l2-7.47.094.025a79.271,79.271,0,0,1,75.78-55.066A29.1,29.1,0,1,1,172.5,54.6a79.335,79.335,0,0,1,38.109,85.6l.1.026-2,7.471s-9.85,45.526-8.912,63.158a80.852,80.852,0,0,0,5.569,24.025Zm11.595-82.161c.232-1.112.367-1.729.367-1.729l1.746-6.519-.084-.022A69.171,69.171,0,0,0,150.645,58c-1.708-.458-3.418-.827-5.127-1.15C159.557,65.039,199.234,93.045,198.29,147.711ZM143.606,25.149a15.336,15.336,0,1,0,14.827-11.382A15.372,15.372,0,0,0,143.606,25.149Z" transform="translate(0)" fill="url(#radial-gradient)"/>
+        <path id="Path_50431" data-name="Path 50431" d="M31.843,30.982A31.863,31.863,0,0,0,63.677.05L0,.041A31.885,31.885,0,0,0,31.843,30.982Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 72.42, 227.217)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

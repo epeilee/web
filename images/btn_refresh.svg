@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g id="prefix__btn_refresh" stroke="#99a5cb" transform="translate(-321 -44.733)">
+        <g id="prefix__Ellipse_504" fill="none" data-name="Ellipse 504" transform="translate(321 44.733)">
+            <circle cx="13" cy="13" r="13" stroke="none"/>
+            <circle cx="13" cy="13" r="12.5"/>
+        </g>
+        <path id="prefix__Path_8465" fill="#99a5cb" stroke-width="0.2px" d="M21.385 5.521a.467.467 0 1 0-.921.147v.008a5.137 5.137 0 1 1-1.274-2.608l-2.067.689a.467.467 0 0 0-.3.59.467.467 0 0 0 .59.3l2.8-.933a.467.467 0 0 0 .319-.443V.467a.467.467 0 1 0-.933 0v1.7a6 6 0 1 0 1.782 3.35z" data-name="Path 8465" transform="translate(318.83 51.433)"/>
+    </g>
+</svg>

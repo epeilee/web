@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon_setting" width="18" height="13.549" viewBox="0 0 18 13.549">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="prefix__Path_8449" d="M27.054 47.717H14.832a.912.912 0 1 1 0-1.824h12.222a.912.912 0 0 1 0 1.824z" class="prefix__cls-1" data-name="Path 8449" transform="translate(-9.966 -34.41)"/>
+    <path id="prefix__Path_8450" d="M27.054 28.886H14.832a.912.912 0 0 1 0-1.824h12.222a.912.912 0 0 1 0 1.824z" class="prefix__cls-1" data-name="Path 8450" transform="translate(-9.966 -21.199)"/>
+    <path id="prefix__Path_8451" d="M27.054 10.055H14.832a.912.912 0 1 1 0-1.824h12.222a.912.912 0 0 1 0 1.824z" class="prefix__cls-1" data-name="Path 8451" transform="translate(-9.966 -7.989)"/>
+    <circle id="prefix__Ellipse_452" cx="1.225" cy="1.225" r="1.225" class="prefix__cls-1" data-name="Ellipse 452"/>
+    <circle id="prefix__Ellipse_453" cx="1.225" cy="1.225" r="1.225" class="prefix__cls-1" data-name="Ellipse 453" transform="translate(0 5.55)"/>
+    <circle id="prefix__Ellipse_454" cx="1.225" cy="1.225" r="1.225" class="prefix__cls-1" data-name="Ellipse 454" transform="translate(0 11.099)"/>
+</svg>

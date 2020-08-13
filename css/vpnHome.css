@@ -1,0 +1,463 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  border: 0px;
+  background-color: transparent;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+button:focus, button:active {
+  outline: 0;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: translate(0, 1px);
+          transform: translate(0, 1px);
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+section {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 49%;
+  margin: 0px;
+  padding: 0px;
+}
+
+section .contain {
+  width: 90%;
+  margin: 40px auto 60px;
+  position: relative;
+}
+
+.selectCountry {
+  background: url(/images/bg_location.png) center center fixed no-repeat;
+  background-size: cover;
+}
+
+.selectCountry h2 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.selectCountry h2.vipName {
+  color: #FFD772;
+}
+
+.selectCountry .toolbar {
+  position: absolute;
+  right: 0px;
+}
+
+.selectCountry label, .selectCountry input {
+  display: inline-block;
+  width: 100%;
+}
+
+.selectCountry label {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.selectCountry h2 {
+  padding-bottom: 15px;
+}
+
+.selectCountry input {
+  border: 0;
+  opacity: 0.8;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(5, 8, 10, 0.3);
+          box-shadow: 0 5px 15px 0 rgba(5, 8, 10, 0.3);
+  background-color: #0f1425;
+  outline: none;
+  padding: 10px 0;
+  overflow: visible;
+  background-size: 18px 18px;
+  /*设置小图标的 大小*/
+  background-position: 97% 60%;
+  /*设置小图标的位置*/
+  background-repeat: no-repeat;
+  /*设置小图标不重复*/
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.selectCountry input:hover {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(5, 8, 10, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(5, 8, 10, 0.3);
+}
+
+.selectCountry input:active {
+  -webkit-box-shadow: inset 4px 4px 5px #05080a;
+          box-shadow: inset 4px 4px 5px #05080a;
+  -webkit-transform: translate(0, 1px);
+          transform: translate(0, 1px);
+}
+
+.selectCountry ::-webkit-input-placeholder {
+  color: #fff .4;
+}
+
+.selectCountry :-ms-input-placeholder {
+  color: #fff .4;
+}
+
+.selectCountry ::-ms-input-placeholder {
+  color: #fff .4;
+}
+
+.selectCountry ::placeholder {
+  color: #fff .4;
+}
+
+.selectCountry input, .selectCountry select, .selectCountry textarea {
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.selectCountry textarea:focus, .selectCountry input:focus {
+  color: #ffffff;
+}
+
+.selectCountry .btn-search {
+  float: right;
+  margin-top: -28px;
+  margin-right: 12px;
+  z-index: 3;
+}
+
+form, .vpn {
+  margin-bottom: 30px;
+}
+
+.vpnArea {
+  border: 1px solid #6b82b4;
+  background-color: #293d69;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 0 rgba(5, 8, 10, 0.6);
+          box-shadow: 5px 5px 15px 0 rgba(5, 8, 10, 0.6);
+  padding: 10px 20px;
+}
+
+.vpnArea li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vpnArea li > div {
+  padding-top: 20px;
+}
+
+.vpnArea li > div:nth-of-type(1) {
+  width: 10%;
+  min-width: 40px;
+}
+
+.vpnArea li span {
+  padding: 0 10px;
+}
+
+.vpnArea li .speed {
+  color: #91a0c3;
+}
+
+.vpnArea li .speed span::after {
+  content: 'ms';
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.vpnArea li > div:nth-of-type(2) {
+  width: 70%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6b82b4;
+}
+
+.vpnArea li > div:nth-of-type(2) .countryName {
+  color: #fff;
+  padding-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.vpnArea li > div:nth-of-type(2) .vpnSpeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vpnArea li > div:nth-of-type(2) .tag {
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.vpnArea li > div:nth-of-type(2) .tag.free {
+  background-color: #2d7af4;
+  color: #fff;
+}
+
+.vpnArea li > div:nth-of-type(2) .tag.vip {
+  color: #a55e21;
+  background-color: #ffd772;
+}
+
+.vpnArea li > div:nth-of-type(3) {
+  position: relative;
+}
+
+.vpnArea li > div:nth-of-type(3) input[type="radio"] {
+  display: inline-block;
+  background-color: #1b2846;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+}
+
+.vpnArea li > div:nth-of-type(3) input[type="radio"]:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vpnArea li > div:nth-of-type(3) input[type="radio"]:checked ~ .radio::after {
+  opacity: 1;
+  background-color: #5ee8a2;
+}
+
+.vpnArea li > div:nth-of-type(3) .radio {
+  background-color: #1b2846;
+  position: absolute;
+  right: 2px;
+  top: 22px;
+  height: 20px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.vpnArea li > div:nth-of-type(3) .radio:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5ee8a2;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.connectState {
+  background: url(/images/bg_index.png) center center fixed no-repeat;
+  background-size: cover;
+}
+
+.connectState .accountHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.connectState .toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.connectState .toolbar .btn {
+  padding: 0 20px;
+}
+
+.connectState .toolbar .btn.purchase {
+  background: -webkit-gradient(linear, left top, left bottom, from(#49adb4), to(#63f59e));
+  background: linear-gradient(#49adb4, #63f59e);
+  border-radius: 20px;
+  padding: 7px 18px;
+}
+
+.connectState .toolbar .btn.purchase span {
+  color: #fff;
+  font-size: 15px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  line-height: 34px;
+}
+
+.connectState .toolbar .btn.purchase span::before {
+  content: url(/images/icon_purchase.png);
+  line-height: 15px;
+  text-align: center;
+  min-height: 32px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-right: 10px;
+}
+
+.connectState .account {
+  font-size: 15px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.connectState .connectArea {
+  padding: 50px 0;
+}
+
+.connectState .connectArea .btnGroup, .connectState .connectArea .connecting {
+  padding: 30px 0;
+}
+
+.connectState .connectArea .btnGroup {
+  margin: 0 auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.connectState .connectArea .btn {
+  border-radius: 50%;
+  border: 5px solid #0F272F;
+  background: -webkit-gradient(linear, left top, left bottom, from(#49adb4), to(#63f59e));
+  background: linear-gradient(#49adb4, #63f59e);
+  color: #fff;
+  font-size: 13px;
+  margin: 0 10px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.connectState .connectArea .btn:hover, .connectState .connectArea .btn:active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#091829), to(#304258));
+  background: linear-gradient(#091829, #304258);
+  color: rgba(255, 255, 255, 0.5);
+  border-color: #2F515C;
+}
+
+.connectState .connectArea .btn-all {
+  width: 58px;
+  height: 58px;
+  bottom: -5%;
+  position: absolute;
+  left: 15%;
+}
+
+.connectState .connectArea .btn-on {
+  width: 106px;
+  height: 106px;
+}
+
+.connectState .connectArea .btn-smart {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  bottom: -5%;
+  right: 15%;
+}
+
+.connectState .connectArea .connecting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  vertical-align: middle;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.connectState .connectArea .connecting p {
+  color: #5ee8a2;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.connectState .connectArea .connecting .time {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.connectState .pingArea {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.connectState .pingArea div {
+  background-color: #0e1524;
+  color: #91a0c3;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.connectState .pingArea div span {
+  color: #fff;
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.connectState .pingArea div span::after {
+  content: 'ms';
+  font-size: 14px;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=vpnHome.css.map */
