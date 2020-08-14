@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPN Home</title>
-    <link rel="stylesheet" href="css/reset.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/reset.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/vpnHome.css" rel="stylesheet" type="text/css">
+
+
 </head>
 <body>
     <div class="wrapper">
@@ -16,18 +18,21 @@
                         <button class="btn icon_refresh"><img src="/images/btn_refresh.svg" alt=""></button>
                     </div>
                     <label for="searchCountry"><h2>选择国家</h2></label>
-                    <input type="searchCountry" id="searchCountry" name="searchCountry" placeholder="请输入国家">
-                    <button class="btn-search"><img src="/images/icon_search.svg" alt=""></button>
+                    <div class="searchGroup">
+                         <input type="searchCountry" id="searchCountry" name="searchCountry" class="searchCountry" placeholder="请输入国家">
+                        <button class="btn-search"><img src="/images/icon_search.svg" alt=""></button>
+                        <!-- <input type="search" name="searchCountry" id="" placeholder="请输入国家"> -->
+                    </div>
                 </form>
                 <div class="vpn freeVPN">
                     <h2>Free</h2>
                     <div class="vpnArea freeArea">
                         <ul>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_us.png" alt="">
+                                <div class="flag">
+                                    <img src="/images/flag_us.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">United States Los Angeles<span>- 15</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag free">Free</div>
@@ -36,16 +41,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="countryRadio">
                                     <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                    <label for="vpnSelected1" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_china.png" alt="">
+                                <div class="flag">
+                                    <img src="/images/flag_china.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">China Hangzhou<span>- 1488</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag free">Free</div>
@@ -54,16 +59,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected2" name="vpnSelected" value="2">
+                                    <label for="vpnSelected2" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_china.png" alt="">
+                                <div class="flag">
+                                    <img src="/images/flag_china.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">China Hangzhou<span>- 2564</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag free">Free</div>
@@ -72,16 +77,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected3" name="vpnSelected" value="3">
+                                    <label for="vpnSelected3" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_india.png" alt="">
+                                <div class="flag">
+                                    <img src="/images/flag_india.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">China Hangzhou<span>- 2564</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag free">Free</div>
@@ -90,9 +95,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected4" name="vpnSelected" value="4">
+                                    <label for="vpnSelected4" class="radio-label"></label>
                                 </div>
                             </li>
                         </ul>
@@ -103,10 +108,10 @@
                     <div class="vpnArea vipArea">
                         <ul>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_us.png" alt="" >
+                                <div class="flag">
+                                    <img src="/images/flag_us.png" alt="" >
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">United States Henderson<span>54</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag vip">VIP</div>
@@ -115,16 +120,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected5" name="vpnSelected" value="5">
+                                    <label for="vpnSelected5" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_us.png" alt="" >
+                                <div class="flag">
+                                    <img src="/images/flag_us.png" alt="" >
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">United States New York<span>11</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag vip">VIP</div>
@@ -133,16 +138,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected6" name="vpnSelected" value="6">
+                                    <label for="vpnSelected6" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img class="flag" src="/images/flag_au.png" alt="">
+                                <div class="flag">
+                                    <img src="/images/flag_au.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">Australia Georgetown<span>20</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag vip">VIP</div>
@@ -151,16 +156,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected7" name="vpnSelected" value="7">
+                                    <label for="vpnSelected7" class="radio-label"></label>
                                 </div>
                             </li>
                             <li class="country">
-                                <div>
-                                    <img src="/images/flag_india.png" alt="" class="flag flag_india">
+                                <div class="flag">
+                                    <img src="/images/flag_india.png" alt="">
                                 </div>
-                                <div>
+                                <div class="countryDetail">
                                     <div class="countryName">India Bengaluru<span>16</span></div>
                                     <div class="vpnSpeed">
                                         <div class="tag vip">VIP</div>
@@ -169,9 +174,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <input type="radio" id="vpnSelected1" name="vpnSelected" value="1" checked>
-                                    <span class="radio"></span>
+                                <div class="countryRadio">
+                                    <input type="radio" id="vpnSelected8" name="vpnSelected" value="8">
+                                    <label for="vpnSelected8" class="radio-label"></label>
                                 </div>
                             </li>
                         </ul>
@@ -197,6 +202,14 @@
                     <div class="connecting">
                         <p>已连接</p>
                         <div class="time">02:30</div>
+                    </div>
+                </div>
+                <div class="vpnDetail">
+                    <div class="flag">
+                        <img src="/images/flag_us.png" alt="">
+                    </div>
+                    <div class="countryDetail">
+                        <div class="countryName">United States Los Angeles<span>- 15</span></div>
                     </div>
                 </div>
                 <div class="pingArea">
